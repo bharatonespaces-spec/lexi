@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer | Lexi Services</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Specific override for Logo on this page if needed */
+        .gateway-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--navy);
+            margin-bottom: 2rem;
+            font-weight: 700;
+        }
+
+        .gateway-logo span {
+            color: var(--gold);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bci-gateway">
+        <div class="disclaimer-card">
+            <div class="gateway-logo">
+                <img src="images/logo.jpg" alt="Lexi Services Logo"
+                    style="height: 80px; border-radius: 4px; margin-bottom: 1rem;">
+            </div>
+
+            <h2>⚖️ BCI-Compliant Mandatory Disclaimer</h2>
+            <p style="color: var(--gold); font-weight: 600; margin-top: 0.5rem">Statutory Compliance</p>
+
+            <div class="disclaimer-content">
+                <p>This website (www.LexiServices.com) is for informational purposes only. By clicking "I AGREE" below,
+                    the user acknowledges the following:</p>
+                <br>
+                <ul class="disclaimer-list">
+                    <li>There has been <strong>no advertisement, personal communication, solicitation, invitation, or
+                            inducement</strong> of any sort restricted by the BCI to solicit any work through this
+                        website.</li>
+                    <li>The information provided is solely for the user's information and knowledge.</li>
+                    <li>The content should not be interpreted as legal advice, nor does it establish an attorney-client
+                        relationship.</li>
+                    <li>Lexi Services is not liable for any action taken based on this material. Please seek independent
+                        legal counsel.</li>
+                </ul>
+            </div>
+
+            <p style="margin-bottom: 2rem; font-weight: 500;">To proceed, you must confirm that you have read and
+                understood the information above.</p>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <button id="agree-btn" class="btn btn-gold">I AGREE & PROCEED</button>
+                <button id="disagree-btn" class="btn btn-outline" style="border-width: 1px;">I DISAGREE</button>
+            </div>
+
+            <p style="margin-top: 2rem; font-size: 0.8rem; color: #888;">This disclaimer is in accordance with Bar
+                Council of India Rules.</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
